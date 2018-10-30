@@ -12,7 +12,7 @@ import android.os.Handler;
 
 public class MainActivity extends AppCompatActivity
                         implements CommitTimeDialog.CommitTimeFragmentListener {
-
+        /// this is new
 
     TextView timeView;
     Button start, pause, reset;

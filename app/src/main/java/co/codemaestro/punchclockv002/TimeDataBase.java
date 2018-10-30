@@ -33,17 +33,12 @@ public class TimeDataBase extends AppCompatActivity {
 
         // Run method to initialize RecyclerView
         initRecyclerView();
-
-
-
-
     }
 
     public void tempAddToList(View view) {
 
         myTimeList.addLast(savedTime);
         myCategoryList.addLast(category);
-
         myAdapter.notifyDataSetChanged();
 
     }
@@ -61,9 +56,6 @@ public class TimeDataBase extends AppCompatActivity {
 
         // Gives the RecView a default Layout Manager
         myRecyclerView.setLayoutManager(new LinearLayoutManager((this)));
-
     }
-
-
 
 }
